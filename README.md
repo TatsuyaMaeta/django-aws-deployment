@@ -24,3 +24,10 @@ docker system  prune -a --volumes
 postgresに関するライブラリの設定
 requirements.txtに
 https://qiita.com/b2bmakers/items/d1b0db5966ac145b0e29
+
+
+
+起動コマンド
+docker-compose up --build
+
+python my_app/manage.py collectstatic
