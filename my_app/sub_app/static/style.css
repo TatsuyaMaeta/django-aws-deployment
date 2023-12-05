@@ -1,10 +1,18 @@
+body {
+    background-color: darkgray;
+}
+
 h1 {
     color: blue;
     text-decoration: underline;
 }
-h2 {
+
+.fw {
     color: red;
+    font-size: 18px;
+    font-weight: bold;
 }
-body {
-    background-color: darkgray;
+
+.aws {
+    color: green;
 }
