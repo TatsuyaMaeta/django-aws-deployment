@@ -1,5 +1,8 @@
 https://www.youtube.com/watch?v=Gkpdg6zBC90
 
+LAST
+https://www.youtube.com/watch?v=P5Tkhvx1NoM&t=3s
+
 admin
 admin@admin.com
 admin123
@@ -29,5 +32,8 @@ https://qiita.com/b2bmakers/items/d1b0db5966ac145b0e29
 
 起動コマンド
 docker-compose up --build
+
+コンテナ、イメージ全て削除
+docker system  prune -a --volumes
 
 python my_app/manage.py collectstatic
