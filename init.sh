@@ -47,6 +47,10 @@ docker-compose version
 # /home/ec2-user/venv/bin/python3 -m pip install --upgrade pip
 
 
-# python manage.py makemigrations
-# python manage.py migrate
-# python manage.py createsuperuser 
+# python3 manage.py makemigrations
+# python3 manage.py migrate
+# python3 manage.py createsuperuser 
+
+
+# postgresql側(DB側)のセキュリティグループのインバウンドルールにEC2のプライベート IPv4 アドレスをくっつける。
+# それをソースに追加指定して保存
