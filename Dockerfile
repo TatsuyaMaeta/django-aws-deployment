@@ -6,7 +6,7 @@ RUN apt-get update
 # RUN apt-get install -y vim less
 
 # postgresqlのdev用のものをinstall
-RUN apt-get install -y libpq-dev 
+# RUN apt-get install -y libpq-dev 
 
 RUN pip install --upgrade pip --no-cache-dir
 

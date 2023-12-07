@@ -1,0 +1,8 @@
+nginx-1       | 2023/12/05 10:29:41 [warn] 29#29: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 103.5.140.139, server: , request: "POST / HTTP/1.1", host: "3.112.68.138", referrer: "http://3.112.68.138/"
+django_app-1  | [2023-12-05 10:30:11 +0000] [1] [CRITICAL] WORKER TIMEOUT (pid:8)
+nginx-1       | 103.5.140.139 - - [05/Dec/2023:10:30:12 +0000] "POST / HTTP/1.1" 502 559 "http://3.112.68.138/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" "-"
+django_app-1  | [2023-12-05 10:30:12 +0000] [1] [ERROR] Worker (pid:8) was sent SIGKILL! Perhaps out of memory?
+nginx-1       | 2023/12/05 10:30:12 [error] 29#29: *1 upstream prematurely closed connection while reading response header from upstream, client: 103.5.140.139, server: , request: "POST / HTTP/1.1", upstream: "http://172.18.0.2:8000/", host: "3.112.68.138", referrer: "http://3.112.68.138/"
+django_app-1  | [2023-12-05 10:30:12 +0000] [9] [INFO] Booting worker with pid: 9
+
+502 Bad Gateway
